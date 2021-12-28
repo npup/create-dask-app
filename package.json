@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "create-dask-app",
+  "version": "1.0.3",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "create-dask-app": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "P.Envall <petter.envall@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "degit": "^2.8.4",
+    "fs-extra": "^10.0.0",
+    "kleur": "^4.1.4",
+    "prompts": "^2.4.2",
+    "yargs": "^17.3.1"
+  }
+}
